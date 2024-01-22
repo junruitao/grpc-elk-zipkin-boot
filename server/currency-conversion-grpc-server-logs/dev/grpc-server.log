@@ -1,0 +1,29 @@
+2024-01-23 06:39:02.154      INFO [grpc-server,,]     39656 --- [           main] v.currencyconversion.api.ServerApp       : Starting ServerApp using Java 17.0.5 with PID 39656 (C:\Users\atich\samples\grpc-elk-zipkin-boot\server\bin\main started by atich in C:\Users\atich\samples\grpc-elk-zipkin-boot\server)
+2024-01-23 06:39:02.163      INFO [grpc-server,,]     39656 --- [           main] v.currencyconversion.api.ServerApp       : No active profile set, falling back to 1 default profile: "default"
+2024-01-23 06:39:03.408      INFO [grpc-server,,]     39656 --- [           main] v.currencyconversion.api.ServerApp       : Started ServerApp in 2.042 seconds (process running for 2.487)
+2024-01-23 06:39:03.414      INFO [grpc-server,,]     39656 --- [           main] v.c.api.server.GrpcServer                : gRPC server is starting on port: 8080.
+2024-01-23 06:39:03.790      INFO [grpc-server,,]     39656 --- [           main] v.c.api.server.GrpcServer                : gRPC server started and listening on port: 8080.
+2024-01-23 06:39:03.790      INFO [grpc-server,,]     39656 --- [           main] v.c.api.server.GrpcServer                : Following service are available: 
+2024-01-23 06:39:03.791      INFO [grpc-server,,]     39656 --- [           main] v.c.api.server.GrpcServer                : Service Name: voyager.currencyconversion.grpc.CurrencyConversionService
+2024-01-23 06:39:19.677      INFO [grpc-server,65aec467fe426659f8cdc3f7c7acea80,c88a45c798b7e69b]     39656 --- [ault-executor-0] v.c.a.s.s.CurrencyConversionService      : From : USD To:JPY Amount:120.0
+2024-01-23 07:01:02.880      INFO [grpc-server,,]     6896 --- [           main] v.currencyconversion.api.ServerAppTests  : Starting ServerAppTests using Java 17.0.5 with PID 6896 (started by atich in C:\Users\atich\samples\grpc-elk-zipkin-boot\server)
+2024-01-23 07:01:02.880      INFO [grpc-server,,]     6896 --- [           main] v.currencyconversion.api.ServerAppTests  : The following 1 profile is active: "test"
+2024-01-23 07:01:03.832      INFO [grpc-server,,]     6896 --- [           main] v.currencyconversion.api.ServerAppTests  : Started ServerAppTests in 1.219 seconds (process running for 3.047)
+2024-01-23 07:01:36.842      INFO [grpc-server,,]     39128 --- [           main] v.currencyconversion.api.ServerAppTests  : Starting ServerAppTests using Java 17.0.5 with PID 39128 (started by atich in C:\Users\atich\samples\grpc-elk-zipkin-boot\server)
+2024-01-23 07:01:36.843      INFO [grpc-server,,]     39128 --- [           main] v.currencyconversion.api.ServerAppTests  : The following 1 profile is active: "test"
+2024-01-23 07:01:37.773      INFO [grpc-server,,]     39128 --- [           main] v.currencyconversion.api.ServerAppTests  : Started ServerAppTests in 1.198 seconds (process running for 2.377)
+2024-01-23 07:04:14.186      INFO [grpc-server,,]     26100 --- [           main] v.currencyconversion.api.ServerAppTests  : Starting ServerAppTests using Java 17.0.5 with PID 26100 (started by atich in C:\Users\atich\samples\grpc-elk-zipkin-boot\server)
+2024-01-23 07:04:14.188      INFO [grpc-server,,]     26100 --- [           main] v.currencyconversion.api.ServerAppTests  : The following 1 profile is active: "test"
+2024-01-23 07:04:15.201      INFO [grpc-server,,]     26100 --- [           main] v.currencyconversion.api.ServerAppTests  : Started ServerAppTests in 1.285 seconds (process running for 2.43)
+2024-01-23 07:05:23.842      INFO [grpc-server,,]     13980 --- [    Test worker] v.currencyconversion.api.ServerAppTests  : Starting ServerAppTests using Java 17.0.2 with PID 13980 (started by atich in C:\Users\atich\samples\grpc-elk-zipkin-boot\server)
+2024-01-23 07:05:23.843      INFO [grpc-server,,]     13980 --- [    Test worker] v.currencyconversion.api.ServerAppTests  : The following 1 profile is active: "test"
+2024-01-23 07:05:24.866      INFO [grpc-server,,]     13980 --- [    Test worker] v.currencyconversion.api.ServerAppTests  : Started ServerAppTests in 1.273 seconds (process running for 2.581)
+2024-01-23 07:05:25.473      INFO [grpc-server,,]     13980 --- [    Test worker] v.c.a.s.s.CurrencyConversionService      : From : USD To:JPY Amount:100.0
+2024-01-23 07:07:56.897      INFO [grpc-server,,]     38124 --- [    Test worker] v.currencyconversion.api.ServerAppTests  : Starting ServerAppTests using Java 17.0.2 with PID 38124 (started by atich in C:\Users\atich\samples\grpc-elk-zipkin-boot\server)
+2024-01-23 07:07:56.897      INFO [grpc-server,,]     38124 --- [    Test worker] v.currencyconversion.api.ServerAppTests  : The following 1 profile is active: "test"
+2024-01-23 07:07:57.908      INFO [grpc-server,,]     38124 --- [    Test worker] v.currencyconversion.api.ServerAppTests  : Started ServerAppTests in 1.285 seconds (process running for 2.584)
+2024-01-23 07:07:58.507      INFO [grpc-server,,]     38124 --- [    Test worker] v.c.a.s.s.CurrencyConversionService      : From : USD To:JPY Amount:100.0
+2024-01-23 07:09:25.793      INFO [grpc-server,,]     23248 --- [    Test worker] v.currencyconversion.api.ServerAppTests  : Starting ServerAppTests using Java 17.0.2 with PID 23248 (started by atich in C:\Users\atich\samples\grpc-elk-zipkin-boot\server)
+2024-01-23 07:09:25.793      INFO [grpc-server,,]     23248 --- [    Test worker] v.currencyconversion.api.ServerAppTests  : The following 1 profile is active: "test"
+2024-01-23 07:09:26.775      INFO [grpc-server,,]     23248 --- [    Test worker] v.currencyconversion.api.ServerAppTests  : Started ServerAppTests in 1.228 seconds (process running for 2.56)
+2024-01-23 07:09:27.357      INFO [grpc-server,,]     23248 --- [    Test worker] v.c.a.s.s.CurrencyConversionService      : From : USD To:JPY Amount:100.0

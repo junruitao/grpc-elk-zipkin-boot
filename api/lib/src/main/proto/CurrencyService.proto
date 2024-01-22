@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package voyager.currencyconversion.grpc;
+
+message ConvertRequest {
+    string from_currency = 1;
+    string to_currency = 2;
+    float amount = 3;
+}
+
+message ConvertResponse {
+    float converted_amount = 1;
+}
+
+service CurrencyConversionService {
+    rpc Convert(ConvertRequest) returns (ConvertResponse);
+}
